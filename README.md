@@ -3,6 +3,7 @@
 > **IMPORTANT NOTICE**: This project is outdated and won't be maintained anymore. Please use one of the following projects:
 > - https://github.com/itsjavi/showdown-data
 > - https://github.com/itsjavi/pokemon-assets
+> - https://github.com/itsjavi/livingdex
 > - https://github.com/itsjavi/livingdex-data
 
 This project parses the RAW data dumps from the Pokémon Sword and Shield games
