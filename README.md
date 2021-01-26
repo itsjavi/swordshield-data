@@ -50,7 +50,7 @@ The only thing your JSON parser needs to do is to skip the first and last lines
 
 Thanks to [@kwsch](https://github.com/kwsch) aka. [@Kaphotics](https://twitter.com/Kaphotics) and SciresM for the data dumps.
 
-https://pastebin.com/u/Kaphotics
-https://pastebin.com/u/SciresM
-https://github.com/kwsch
+- https://pastebin.com/u/Kaphotics
+- https://pastebin.com/u/SciresM
+- https://github.com/kwsch
 
