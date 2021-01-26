@@ -162,13 +162,18 @@ class PokemonParser extends Parser
                         $pokemon['hatch_cycles'] = (int)$data['value'][0];
                     }
                     break;
-                case preg_match_all('/^Height\: (?<height>.+) m, Weight\: (?<weight>.+) kg, Color\: (?<color>.+)/i', $line, $data) > 0:
+                case preg_match_all('/^Height\: (?<height>.+)m, Weight\: (?<weight>.+)kg, Color\: (?<color>.+)/i', $line, $data) > 0:
                     {
                         $pokemon['height'] = floatval($data['height'][0]);
                         $pokemon['weight'] = floatval($data['weight'][0]);
                         $pokemon['color'] = $data['color'][0];
                     }
-                    break;
+		    break;
+		case preg_match_all('/^Catch Rate\: (?<value>.+)/i', $line, $data) > 0:
+		    {
+			$pokemon['catch_rate'] = (int)$data['value'][0];
+		    }
+		    break;
                 case preg_match('/^Level Up Moves\:/i', $line) > 0:
                     {
                         $listName = 'level_up_moves';
